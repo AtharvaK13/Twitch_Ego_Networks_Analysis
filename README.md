@@ -3,7 +3,10 @@ Analysis of the ego-nets of Twitch users for graph classification.
 
 This project aims to classify users based on their ego networks. The ego networks are graphs, which connect a user with other twitch users.  
 
+## Dataset
 The dataset used for this project is publicly available at https://chrsmrrs.github.io/datasets/docs/datasets/ as twitch_Egos  
+
+## Code files
 The file descriptions are listed below.
 * Preprocessing_dataset.ipynb : This notebook was used to preprocess the dataset. The available dataset needed to be converted into csv format to make it more flexible and interchangable into graph representations.
 * The graphs were generated using the CSV file and the networkx library.
